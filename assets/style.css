@@ -1,0 +1,406 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+ul, dl {
+    list-style:none;
+ width:100%;
+}
+
+a {
+  text-decoration:none;
+  background: none;
+  }
+
+html,body {margin:0;padding:0;}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Responsive Resets ~~~~~~~~~~~~~~~~~~~~~~*/
+
+@-o-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+
+html {
+  overflow-y: auto;
+}
+
+img,
+audio,
+video,
+canvas {
+  max-width: 100%;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Site Info~~~~~~~~~~~~~~~~~~~~~~
+
+Site Name: Radius Style Guide
+Designer: Brendan Pittman
+
+
+Colors:
+Color :
+Color :
+*/
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Layout ~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+	font-family: ;
+	color: ;
+}
+
+.sidebar {
+	width: 260px;
+	height:100vh;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: rgba(54,167,227,1);
+	background: -moz-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,167,227,1)), color-stop(100%, rgba(43,132,198,1)));
+	background: -webkit-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
+	background: -o-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
+	background: -ms-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
+	background: linear-gradient(to bottom, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36a7e3', endColorstr='#2b84c6', GradientType=0 );
+}
+
+.container {
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background: ;
+}
+
+header {
+
+}
+
+section {
+
+}
+
+footer {
+
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Typography ~~~~~~~~~~~~~~~~~~~~~~*/
+p {
+	font-size: 1em;
+}
+
+blockquote {
+
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Headings ~~~~~~~~~~~~~~~~~~~~~~*/
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Links ~~~~~~~~~~~~~~~~~~~~~~*/
+a {
+
+}
+
+a:hover {
+
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Navigation ~~~~~~~~~~~~~~~~~~~~~~*/
+ul.menu {
+	list-style-type: none;
+	display: inline
+}
+
+ul.menu li {
+	font-size: 1em; /* 16/16 */
+	text-transform: uppercase;
+	color: ;
+	display: inline;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	color: ;
+}
+
+ul.menu li a:hover {
+	color: ;
+}
+
+ul.menu li.current a {
+
+}
+
+/*ul.menu span.separator {
+	padding: 0 5px;
+}*/
+
+
+
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Media ~~~~~~~~~~~~~~~~~~~~~~*/
+img {
+    max-width:100%;
+    height: auto;
+    /*width:100%*/
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Fun Stuff ~~~~~~~~~~~~~~~~~~~~~~*/
+
+::-moz-selection
+{
+	color:
+	background:
+}
+
+::selection
+{
+	color:
+	background:
+}
+
+::-webkit-selection
+{
+	color:
+	background:
+}
+
+.bump {
+	width: 100%;
+	clear: both;
+	height: 40px;
+}
+
+.bump-lg {
+	width: 100%;
+	clear: both;
+	height: 80px;
+}
+
+.rule {
+	border-top: 1px solid #ddd;
+	margin: 40px 0;
+}
+
+.center {
+	text-align: center;
+}
+
+.nomar {
+	margin: 0;
+}
+
+
+
+
+
+
+/*~~~~~~~~~~~ Columns ~~~~~~~~~~~~~~*/
+.onecol, .twocol, .threecol, .threecol-2, .fourcol, .fourcol-3, .fivecol, .fivecol-2, .fivecol-3, .fivecol-4, .sixcol {
+	height: auto;
+	float: left;
+	margin: 0 1.041666666667%;
+	display: block;
+	overflow: hidden;
+}
+
+.onecol {
+	width: 97.916666666667%;
+}
+
+.twocol {
+    width: 47.916666666667%; /*460/960 */
+}
+
+.threecol {
+    width: 31.25%; /* 300/960 */
+}
+
+.threecol-2 {
+    width: 64.583333333333%; /* 620/960 */
+}
+
+.fourcol {
+    width: 22.916666666667%; /* 220/960 */
+}
+
+.fourcol-3 {
+    width: 72.916666666667%; /* 700/960 */
+}
+
+.fivecol {
+    width: 17.916666666667%; /* 172/960 */
+}
+
+.fivecol-2 {
+    width: 37.916666666667%; /* 364/960 */
+}
+
+.fivecol-3 {
+    width: 57.916666666667%; /* 556/960 */
+}
+
+.fivecol-4 {
+    width: 77.916666666667%; /* 748/960 */
+}
+
+.sixcol {
+    width: 14.583333333333%; /* 140/960 */
+}
+
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Main Elements ~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Media Queries */
+/* ~~~~~~~~~~~~~~~~~~~~ iPad Portrait ~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 959px) {
+
+.onecol, .fivecol, .fivecol-2, .fivecol-3, .fivecol-4, .sixcol {
+	width: 97.916666666667%;
+}
+
+.twocol {
+    width: 47.916666666667%; /*460/960 */
+}
+
+
+.threecol {
+    width: 31.25%; /* 300/960 */
+}
+
+.threecol-2 {
+    width: 64.583333333333%; /* 620/960 */
+}
+
+.fourcol {
+    width: 22.916666666667%; /* 220/960 */
+}
+
+.fourcol-3 {
+    width: 72.916666666667%; /* 700/960 */
+}
+
+
+}/* /iPad Portrait */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~ iPhone Landscape/Small Tablet ~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 767px) {
+.onecol, .threecol, .threecol-2, .fourcol, .fourcol-3, .fivecol, .fivecol-2, .fivecol-3, .fivecol-4, .sixcol, .button {
+	width: 97.916666666667%;
+}
+
+
+}/* /iPhone Landscape/Small Tablet */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~ Small Mobile/iPhone(portrait) ~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 479px) {
+.container {
+    padding: 0 12px;
+}
+
+
+}/* /iPhone port and small phones */
+
+
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Super Small Mobile ~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 319px) {
+
+
+}/* /small mobile*/
+
