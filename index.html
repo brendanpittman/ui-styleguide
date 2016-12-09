@@ -21,39 +21,41 @@
 	</head>
 
 	<body>
-		<div class="sidebar">
-			<p class="sidebar-body-copy">Intro</p>
-			<ul class="sidebar-list">
-				<p class="sidebar-label">Style</p>
-				<li class="sidebar-list-item">Typography</li>
-				<li class="sidebar-list-item">Colors</li>
-				<li class="sidebar-list-item">Icons</li>
-			</ul>
-			<ul class="sidebar-list">
-				<p class="sidebar-label">Style</p>
-				<li class="sidebar-list-item">Buttons</li>
-				<li class="sidebar-list-item">Form Elements</li>
-				<li class="sidebar-list-item">Lists</li>
-				<li class="sidebar-list-item">Popovers</li>
-			</ul>
-			<ul class="sidebar-list">
-				<p class="sidebar-label">Components</p>
-				<li class="sidebar-list-item">Charts</li>
-				<li class="sidebar-list-item">Navigation</li>
-				<li class="sidebar-list-item">Accordions</li>
-				<li class="sidebar-list-item">Dialogs</li>
-				<li class="sidebar-list-item">Notifications</li>
-				<li class="sidebar-list-item">Tables</li>
-				<li class="sidebar-list-item">Cards</li>
-			</ul>
-		</div>
+		<a href="#">
+			<div class="sidebar">
+				<p class="sidebar-body-copy">Intro</p>
+				<ul class="sidebar-list">
+					<p class="sidebar-label">Style</p>
+					<li class="sidebar-list-item">Typography</li>
+					<li class="sidebar-list-item">Colors</li>
+					<li class="sidebar-list-item">Icons</li>
+				</ul>
+				<ul class="sidebar-list">
+					<p class="sidebar-label">Style</p>
+					<li class="sidebar-list-item">Buttons</li>
+					<li class="sidebar-list-item">Form Elements</li>
+					<li class="sidebar-list-item">Lists</li>
+					<li class="sidebar-list-item">Popovers</li>
+				</ul>
+				<ul class="sidebar-list">
+					<p class="sidebar-label">Components</p>
+					<li class="sidebar-list-item">Charts</li>
+					<li class="sidebar-list-item">Navigation</li>
+					<li class="sidebar-list-item">Accordions</li>
+					<li class="sidebar-list-item">Dialogs</li>
+					<li class="sidebar-list-item">Notifications</li>
+					<li class="sidebar-list-item">Tables</li>
+					<li class="sidebar-list-item">Cards</li>
+				</ul>
+			</div>
+		</a>
 
-		<div class="top-fade"></div>
+
 		<div class="wrapper">
 			<div class="container">
 				<section class="intro">
 					<h1>Product Interface Guidelines</h1>
-					<h2>This page is a living design system of the user interface elements and patterns for the core Radius product. These guidelines should be followed and executed as shown without variation to ensure our UI over time remains consistent</h2>
+					<h2>The interface elements, components,  and patterns on this page is a living design system for the core Radius product. These guidelines should be followed and executed as shown without variation to ensure our UI over time remains consistent</h2>
 				</section>
 			</div><!--/container-->
 		</div><!--/wrapper-->
@@ -66,13 +68,13 @@
 
 		<script>
 			$(window).scroll(function(){
-			    $(".top-fade").css("opacity", 1 - $(window).scrollTop() / 250);
+			    $(".intro").css("opacity", 1 - $(window).scrollTop() / 550);
 			  });
 
 			/*win.scroll(function(){
 			  scrollPosition = win.scrollTop();
 			  scrollRatio = 1 - scrollPosition / 300;
-			  $(".top-fade").css("opacity", scrollRatio);
+			  $(".intro").css("opacity", scrollRatio);
 			*/
 		</script>
 
