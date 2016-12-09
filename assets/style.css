@@ -82,7 +82,10 @@ body {
 	font-family: aktiv-grotesk, sans-serif;
 	font-style: normal;
 	font-weight: 300;
-	color: #303B3E
+	color: #303B3E;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 .sidebar {
@@ -106,13 +109,11 @@ body {
 	-webkit-box-sizing: border-box;
 	font-size: 16px;
 	line-height: 28px;
-	font-weight: 200;
 }
 
 .sidebar-list {
 	list-style: none;
-	margin-bottom: 50px;
-
+	margin-bottom: 40px;
 }
 
 .sidebar-label {
@@ -121,14 +122,22 @@ body {
 	letter-spacing: 1px;
 	font-size: 11px;
 	margin-bottom: 0px;
-
 }
 
 .sidebar-list-item {
-
+	cursor: pointer;
+	font-weight: 200;
 }
 
-
+.wrapper {
+	float: left;
+	padding-left: 260px;
+	width: 100%;
+	overflow: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
 
 .container {
     max-width: 960px;
@@ -136,20 +145,6 @@ body {
     margin: 0 auto;
     background: ;
 }
-
-header {
-
-}
-
-section {
-
-}
-
-footer {
-
-}
-
-
 
 
 
@@ -162,17 +157,18 @@ blockquote {
 
 }
 
-
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~ Headings ~~~~~~~~~~~~~~~~~~~~~~*/
 h1 {
-
+	font-weight: 400;
+	font-size: 44px;
+	color: #072231;
+	letter-spacing: -.0125em;
+	margin-bottom: 30px;
 }
 
 h2 {
-
+	font-weight: 200;
+	font-size: 36px;
+	color: #072231;
 }
 
 h3 {
@@ -180,105 +176,35 @@ h3 {
 }
 
 
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~ Links ~~~~~~~~~~~~~~~~~~~~~~*/
-a {
-
-}
-
-a:hover {
-
-}
-
-
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~ Navigation ~~~~~~~~~~~~~~~~~~~~~~*/
-ul.menu {
-	list-style-type: none;
-	display: inline
-}
-
-ul.menu li {
-	font-size: 1em; /* 16/16 */
-	text-transform: uppercase;
-	color: ;
-	display: inline;
-}
-
-ul.menu li a {
-	text-decoration: none;
-	color: ;
-}
-
-ul.menu li a:hover {
-	color: ;
-}
-
-ul.menu li.current a {
-
-}
-
-/*ul.menu span.separator {
-	padding: 0 5px;
-}*/
-
-
-
-
-
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~ Media ~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 img {
     max-width:100%;
     height: auto;
     /*width:100%*/
 }
 
-
-
-
-
-/*~~~~~~~~~~~~~~~~~~~~~~ Fun Stuff ~~~~~~~~~~~~~~~~~~~~~~*/
-
 ::-moz-selection
-{
-	color:
-	background:
-}
-
+{color: #fff;background: #2B84C6}
 ::selection
-{
-	color:
-	background:
-}
-
+{color: #fff;background: #2B84C6}
 ::-webkit-selection
-{
-	color:
-	background:
-}
+{color: #fff;background: #2B84C6}
 
 .bump {
 	width: 100%;
 	clear: both;
-	height: 40px;
+	height: 70px;
 }
 
 .bump-lg {
 	width: 100%;
 	clear: both;
-	height: 80px;
+	height: 130px;
 }
 
 .rule {
-	border-top: 1px solid #ddd;
-	margin: 40px 0;
+	border-top: 1px solid #ECEFF1;
+	margin: 10px 0 60px;
 }
 
 .center {
@@ -288,10 +214,6 @@ img {
 .nomar {
 	margin: 0;
 }
-
-
-
-
 
 
 /*~~~~~~~~~~~ Columns ~~~~~~~~~~~~~~*/
@@ -349,14 +271,20 @@ img {
 
 
 
+/*~~~~~~~~~~~~~~~~~~~~~~ Main  ~~~~~~~~~~~~~~~~~~~~~~*/
 
+.intro {
+	position: fixed;
+	top: 33%;
+}
 
-
-/*~~~~~~~~~~~~~~~~~~~~~~ Main Elements ~~~~~~~~~~~~~~~~~~~~~~*/
-
-
-
-
+.intro h2 {
+	font-weight: 200;
+	font-size: 19px;
+	line-height: 26px;
+	color: #839198;
+	max-width: 585px;
+}
 
 
 
