@@ -106,20 +106,21 @@ body {
 	-webkit-box-sizing: border-box;
 	font-size: 16px;
 	line-height: 28px;
-	font-weight: 300;
+	font-weight: 200;
 }
 
 .sidebar-list {
 	list-style: none;
+	margin-bottom: 50px;
 
 }
 
 .sidebar-label {
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 1px;
 	font-size: 11px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 
 }
 
