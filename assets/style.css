@@ -86,6 +86,7 @@ body {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	height: 2000px;
 }
 
 .sidebar {
@@ -162,7 +163,7 @@ h1 {
 	font-size: 44px;
 	color: #072231;
 	letter-spacing: -.0125em;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -281,7 +282,7 @@ img {
 .intro h2 {
 	font-weight: 200;
 	font-size: 19px;
-	line-height: 26px;
+	line-height: 29px;
 	color: #839198;
 	max-width: 585px;
 }
