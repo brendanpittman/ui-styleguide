@@ -79,25 +79,55 @@ Color :
 
 /*~~~~~~~~~~~~~~~~~~~~~~ Layout ~~~~~~~~~~~~~~~~~~~~~~*/
 body {
-	font-family: ;
-	color: ;
+	font-family: aktiv-grotesk, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #303B3E
 }
 
 .sidebar {
 	width: 260px;
 	height:100vh;
-	position: absolute;
+	position: fixed;
 	left: 0px;
 	top: 0px;
-	background: rgba(54,167,227,1);
-	background: -moz-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,167,227,1)), color-stop(100%, rgba(43,132,198,1)));
-	background: -webkit-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
-	background: -o-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
-	background: -ms-linear-gradient(top, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
-	background: linear-gradient(to bottom, rgba(54,167,227,1) 0%, rgba(43,132,198,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36a7e3', endColorstr='#2b84c6', GradientType=0 );
+	background: rgba(51,157,219,1);
+	background: -moz-linear-gradient(top, rgba(51,157,219,1) 0%, rgba(36,123,188,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(51,157,219,1)), color-stop(100%, rgba(43,132,198,1)));
+	background: -webkit-linear-gradient(top, rgba(51,157,219,1) 0%, rgba(36,123,188,1) 100%);
+	background: -o-linear-gradient(top, rgba(51,157,219,1) 0%, rgba(36,123,188,1) 100%);
+	background: -ms-linear-gradient(top, rgba(51,157,219,1) 0%, rgba(36,123,188,1) 100%);
+	background: linear-gradient(to bottom, rgba(51,157,219,1) 0%, rgba(36,123,188,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339DDB', endColorstr='#237BBD', GradientType=0 );
+	color: #fff;
+	padding: 40px 0 0 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 300;
 }
+
+.sidebar-list {
+	list-style: none;
+
+}
+
+.sidebar-label {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 11px;
+	margin-bottom: 20px;
+
+}
+
+.sidebar-list-item {
+
+}
+
+
 
 .container {
     max-width: 960px;
